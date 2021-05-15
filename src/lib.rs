@@ -26,7 +26,9 @@ pub fn run(config: Config) -> Result<(), Box<dyn Error>> {
 }
 
 pub fn search<'a>(query: &str, contents: &'a str) -> Vec<&'a str> {
-    vec![]
+    for line in contents.lines() {
+        // do somthing with line
+    }
 }
 
 #[cfg(test)]
