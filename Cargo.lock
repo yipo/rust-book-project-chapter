@@ -12,6 +12,7 @@ name = "adder"
 version = "0.1.0"
 dependencies = [
  "add-one",
+ "rand",
 ]
 
 [[package]]
