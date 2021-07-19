@@ -8,4 +8,5 @@ edition = "2018"
 
 [dependencies]
 add-one = { path = "../add-one" }
+add-two = { path = "../add-two" }
 rand = "0.8.3"
